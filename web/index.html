@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#171a18"><title>ZERO-BURN AI — Control Room</title><link rel="stylesheet" href="/style.css"></head>
+<body><header><div class="mark">ZB<span> / ENGINE</span></div><div class="live"><i></i> LOCAL MODE · NO PAID CALLS</div></header>
+<main><section class="hero"><p class="eyebrow">EVIDENCE-DRIVEN COMPUTE</p><h1>Spend tokens<br><em>only when needed.</em></h1><p class="sub">A local-first task router that checks deterministic tools and verified solutions before escalating to expensive models.</p></section>
+<section class="metrics"><article><small>TASK RUNS</small><strong id="runs">0</strong></article><article><small>PLANNING UNITS USED</small><strong id="units">0</strong></article><article><small>VERIFIED SOLUTIONS</small><strong id="solutions">0</strong></article><article><small>MEMORY REUSES</small><strong id="hits">0</strong></article></section>
+<section class="work"><div class="section-title"><div><p class="eyebrow">TASK CONSOLE</p><h2>Run a task</h2></div><span class="badge">LOCAL-FIRST</span></div>
+<form id="task-form"><label for="goal">Goal / instruction</label><textarea id="goal" required maxlength="4000" placeholder="Try: UPPERCASE: evidence beats guesses"></textarea>
+<div class="row"><label>Budget units <input id="budget" type="number" min="0" max="100000" value="100"></label><label>Category <select id="category"><option>general</option><option>coding</option><option>research</option><option>data</option><option>design</option></select></label></div>
+<button type="submit" id="run">RUN LOCAL ROUTER <span>↗</span></button></form><div id="result" class="result" aria-live="polite"><span class="muted">Awaiting task. No provider is configured or called.</span></div></section>
+<section class="principles"><div><b>01 / TOOL FIRST</b><p>Deterministic work stays local.</p></div><div><b>02 / PROOF REQUIRED</b><p>Only verified results enter memory.</p></div><div><b>03 / BOUNDED ESCALATION</b><p>Uncertainty is surfaced, not hidden.</p></div></section>
+<footer><span>ZERO-BURN AI · FOUNDATION 0.1.0</span><span>LOCAL BY DEFAULT / NO SECRETS IN UI</span></footer></main><script src="/app.js" defer></script></body></html>
